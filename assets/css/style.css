@@ -224,6 +224,22 @@ body {
   border: #FC9256 3px solid;
 }
 
+.boton-3 {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #FC9256;
+  color: #FFFCF7;
+  border-radius: 10px;
+  font-weight: 700 !important;
+  padding: 10px 20px;
+}
+
+.boton-3:hover {
+  background-color: #EA8247;
+  color: #FFFCF7;
+}
+
 .icono-footer-1 {
   width: 2.5rem;
   height: auto;
