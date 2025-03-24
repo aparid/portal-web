@@ -1,0 +1,38 @@
+/*+++++++++++++++++++++++++++++++++Paleta cromática+++++++++++++++++++++++++++++++++*/
+
+$color-blanco:#FFFCF7; 
+$color-beige: #FFF2D9;
+
+$color-azul: #3683C3; 
+$color-azul-2: #54B0FF;
+
+$color-amarillo:#FFED66; 
+$color-naranjo:#FC9256; 
+$color-naranjo-2:#EA8247;
+$color-celeste: #60EAF5;
+
+$color-negro: #474747;
+
+
+
+.bg-blanco {
+    background-color: $color-blanco;
+}
+.bg-beige{
+    background-color: $color-beige;
+}
+.bg-azul {
+    background-color: $color-azul;
+}
+.bg-amarillo {
+    background-color: $color-amarillo;
+}
+.bg-naranjo {
+    background-color: $color-naranjo;
+}
+.bg-naranjo-2 {
+    background-color: $color-naranjo-2;
+}
+.bg-celeste {
+    background-color: $color-celeste;
+}

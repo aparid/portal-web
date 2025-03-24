@@ -1,0 +1,115 @@
+
+/*+++++++++++++++++++++++++++++++++Tipografía+++++++++++++++++++++++++++++++++*/
+@font-face {
+    font-family: "Solway";
+    src: url("../fonts/Solway-ExtraBold.ttf") format("truetype");
+    font-weight: 900; /* Regular */
+}
+
+@font-face {
+    font-family: "Solway";
+    src: url("../fonts/Solway-Bold.ttf") format("truetype");
+    font-weight: 700; /* Bold */
+}
+
+@font-face {
+    font-family: "Solway";
+    src: url("../fonts/Solway-Medium.ttf") format("truetype");
+    font-weight: 500; /* Light */
+}
+
+h1 {
+    font-family: "Solway", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0% !important;
+    line-height: 150% !important;
+}
+
+h2 {
+    font-family: "Solway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0% !important;
+    line-height: 150% !important;
+}
+h3 {
+    font-family: "Solway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    font-size: 32px;
+    margin: 0% !important;
+    line-height: 150% !important;
+}
+h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+    font-size: 32px;
+    margin: 0% !important;
+    line-height: 150% !important;
+}
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 20px;
+    margin: 0% !important;
+}
+
+/*Aparte*/
+.texto-blanco{
+    color: $color-blanco;
+}
+.texto-negro{
+    color: $color-negro;
+}
+.texto-azul{
+    color: $color-azul;
+}
+.texto-amarillo{
+    color: $color-amarillo;
+}
+.texto-naranjo{
+    color: $color-naranjo;
+}
+
+/*Aparte*/
+
+.texto-hover-azul:hover{
+    color: $color-azul-2;
+}
+
+
+.parrafo-grande{
+    font-size: 24px !important;
+}
+.bold {
+    font-weight: 600;
+}
+
+
+/* Responsive Tablet o inferior */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+
