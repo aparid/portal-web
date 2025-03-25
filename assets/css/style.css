@@ -31,7 +31,7 @@
 /*+++++++++++++++++++++++++++++++++Tipografía+++++++++++++++++++++++++++++++++*/
 @font-face {
   font-family: "Solway";
-  src: url("../fonts/Solway-ExtraBold.ttf") format("truetype");
+  src: url("../../font/Solway-ExtraBold.ttf") format("truetype");
   font-weight: 900; /* Regular */
 }
 @font-face {
