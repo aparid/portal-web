@@ -285,6 +285,8 @@ body {
   top: 0%;
   left: 0%;
   position: absolute;
+  -o-object-position: left center;
+     object-position: left center;
 }
 
 .socio-triangulo-2 {
@@ -294,6 +296,8 @@ body {
   left: 0%;
   transform: rotate(180deg);
   position: absolute;
+  -o-object-position: right center;
+     object-position: right center;
 }
 
 .socio-cuadrado-1 {
@@ -301,6 +305,8 @@ body {
   width: 50%;
   z-index: 1;
   left: 0%;
+  -o-object-position: left center;
+     object-position: left center;
   position: absolute;
 }
 
@@ -309,6 +315,8 @@ body {
   width: 50%;
   z-index: 1;
   right: 0%;
+  -o-object-position: right center;
+     object-position: right center;
   position: absolute;
 }
 
@@ -373,6 +381,13 @@ body {
   .banner-1 {
     height: 200px;
     padding-left: 100px;
+  }
+  .socio-triangulo-1 {
+    width: 150%;
+  }
+  .socio-triangulo-2 {
+    width: 150%;
+    margin-left: -53%;
   }
 }
 /*+++++++++++++++++++++++++++++++++Espaciado+++++++++++++++++++++++++++++++++*/

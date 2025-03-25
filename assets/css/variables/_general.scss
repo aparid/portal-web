@@ -153,6 +153,7 @@ body {
     top: 0%;
     left: 0%;
     position: absolute;
+    object-position: left center;
 }
 .socio-triangulo-2{
     width: 100%;
@@ -161,12 +162,14 @@ body {
     left: 0%;
     transform: rotate(180deg);
     position: absolute;
+    object-position: right center;
 }
 .socio-cuadrado-1{
     height: 100%;
     width: 50%;
     z-index: 1;
     left: 0%;
+    object-position: left center;
     position: absolute;
 }
 .socio-cuadrado-2{
@@ -174,6 +177,7 @@ body {
     width: 50%;
     z-index: 1;
     right: 0%;
+    object-position: right center;
     position: absolute;
 }
 .banner-1{
@@ -234,5 +238,12 @@ body {
     .banner-1{
         height: 200px;
         padding-left: 100px;
+    }
+    .socio-triangulo-1{
+        width: 150%;
+    }
+    .socio-triangulo-2{
+        width:150%;
+       margin-left: -53%;
     }
 }
